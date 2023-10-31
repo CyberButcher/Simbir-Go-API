@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\kirill\\Server\\data\\htdocs\\Simbir_GO_Api\\Simbir_GO_Api\\Simbir_GO_Api.csproj": {}
+  },
+  "projects": {
+    "D:\\kirill\\Server\\data\\htdocs\\Simbir_GO_Api\\Simbir_GO_Api\\Simbir_GO_Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\kirill\\Server\\data\\htdocs\\Simbir_GO_Api\\Simbir_GO_Api\\Simbir_GO_Api.csproj",
+        "projectName": "Simbir_GO_Api",
+        "projectPath": "D:\\kirill\\Server\\data\\htdocs\\Simbir_GO_Api\\Simbir_GO_Api\\Simbir_GO_Api.csproj",
+        "packagesPath": "C:\\Users\\olega\\.nuget\\packages\\",
+        "outputPath": "D:\\kirill\\Server\\data\\htdocs\\Simbir_GO_Api\\Simbir_GO_Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

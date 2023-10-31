@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Simbir_GO_Api.props" />
+</Project>
