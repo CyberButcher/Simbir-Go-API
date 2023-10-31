@@ -23,7 +23,6 @@ namespace Simbir_GO_Api.Controllers
         [Authorize]
         public IActionResult AddMoneyToAccount(long accountId)
         {
-            var currentUser = _dbContext.Users.FirstOrDefault(u => u.UserName == User.Identity.Name);
             var account = _dbContext.Users.FirstOrDefault(u => u.Id == accountId);
 
             if (account == null)
