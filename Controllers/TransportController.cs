@@ -104,6 +104,15 @@ namespace Simbir_GO_Api.Controllers
                 return BadRequest("Ошибка в заполненных данных! Такого типа транспорта не существует.");
             }
 
+            if (transport.Latitude < -90 || transport.Latitude > 90)
+            {
+                return BadRequest("Недопустимое значение для Latitude.");
+            }
+            if (transport.Longitude < -180 || transport.Longitude > 180)
+            {
+                return BadRequest("Недопустимое значение для Longitude.");
+            }
+
             foreach (var propertyInfo in transport.GetType().GetProperties())
             {
                 var updatedValue = propertyInfo.GetValue(transport);
@@ -120,16 +129,6 @@ namespace Simbir_GO_Api.Controllers
                         {
                             if ((double)updatedValue != 181 && (double)updatedValue != 91)
                             {
-                                double newValue = (double)updatedValue;
-
-                                if (currentProperty.Name == "Latitude" && (newValue < -90 || newValue > 90))
-                                {
-                                    return BadRequest("Недопустимое значение для Latitude.");
-                                }
-                                else if (currentProperty.Name == "Longitude" && (newValue < -180 || newValue > 180))
-                                {
-                                    return BadRequest("Недопустимое значение для Longitude.");
-                                }
                                 currentProperty.SetValue(currentTransport, updatedValue);
                             }
                         }
