@@ -1,8 +1,6 @@
 # Simbir Go API
 ## URL: https://localhost:7142/swagger/index.html
 
-1. Нужно поменять строку подключения к бд в файле appsettings.json в строке "ConnectionString".
-
-2.1. Если запускаете через Solution, то просто запускаете проект в режиме отладки, он откроется по URL: https://localhost:7142/swagger/index.html
-
-2.2. Если запускаете Simbir_GO_Api.exe в папке Simbir_GO_Api\bin\Debug\net7.0, то проект будет хостится по URL: http://localhost:5000/swagger/index.html 
+1. РќСѓР¶РЅРѕ РїРѕРјРµРЅСЏС‚СЊ СЃС‚СЂРѕРєСѓ РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р±Рґ РІ С„Р°Р№Р»Рµ appsettings.json РІ СЃС‚СЂРѕРєРµ "ConnectionString".
+2.1. Р•СЃР»Рё Р·Р°РїСѓСЃРєР°РµС‚Рµ С‡РµСЂРµР· Solution, С‚Рѕ РїСЂРѕСЃС‚Рѕ Р·Р°РїСѓСЃРєР°РµС‚Рµ РїСЂРѕРµРєС‚ РІ СЂРµР¶РёРјРµ РѕС‚Р»Р°РґРєРё, РѕРЅ РѕС‚РєСЂРѕРµС‚СЃСЏ РїРѕ URL: https://localhost:7142/swagger/index.html
+2.2. Р•СЃР»Рё Р·Р°РїСѓСЃРєР°РµС‚Рµ Simbir_GO_Api.exe РІ РїР°РїРєРµ Simbir_GO_Api\bin\Debug\net7.0, С‚Рѕ РїСЂРѕРµРєС‚ Р±СѓРґРµС‚ С…РѕСЃС‚РёС‚СЃСЏ РїРѕ URL: http://localhost:5000/swagger/index.html 
